@@ -1,0 +1,4 @@
+rootProject.name = 'nibiruPersistence'
+
+include ':org.nibiru.persistence.gwt'
+include ':org.nibiru.persistence.ios'

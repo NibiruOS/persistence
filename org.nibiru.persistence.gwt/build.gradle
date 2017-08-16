@@ -1,0 +1,10 @@
+jar {
+   from sourceSets.main.java.srcDirs 
+}
+
+dependencies {
+	compile "io.github.nibiruos.mobile:org.nibiru.mobile.core:${nibiruMobileVersion}"
+	compile "com.google.gwt:gwt-user:${gwtVersion}"
+	compile "com.google.guava:guava-gwt:${guavaVersion}"
+	compile "com.aajtech.gwtmobile:persistence:1.0-SNAPSHOT"
+}
